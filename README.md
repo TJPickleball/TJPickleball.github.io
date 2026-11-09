@@ -40,7 +40,7 @@ Keep the commas and quote marks exactly as they are. If the site shows "Could no
 
 ## Analytics
 
-`index.html` has a GoatCounter snippet commented out near the top. Sign up free at goatcounter.com, then uncomment the snippet and put your code into its URL.
+Page views are tracked with GoatCounter. The dashboard is at https://gerald-tui.goatcounter.com and the snippet is near the top of `index.html`.
 
 ## Privacy
 
