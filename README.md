@@ -40,7 +40,7 @@ Keep the commas and quote marks exactly as they are. If the site shows "Could no
 
 ## Analytics
 
-Page views are tracked with GoatCounter. The dashboard is at https://gerald-tui.goatcounter.com and the snippet is near the top of `index.html`.
+Page views are tracked with GoatCounter. The dashboard is at https://tjpickleball.goatcounter.com and the snippet is near the top of `index.html`.
 
 ## Privacy
 
