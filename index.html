@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0A3014">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="TJPL4">
+<title>Trader Jacks Pickleball League IV (Copy)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0A3014;--bg2:#0F3F1B;--bg3:#145024;--text:#ffffff;--mute:#8FB89A;--neon:#39FF14;--acc:#39FF14;--hero:#F4FF00;--glow:#1c6b30;--d1:#F4FF00;--d2:#FF7A00;--d3:#FF2B2B;--line:#2E6B3C;color-scheme:dark}
+@media (prefers-color-scheme: dark){:root{--bg:#0A3014}}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;background:var(--bg);color:var(--text);font-family:'Bebas Neue','Arial Narrow',Impact,sans-serif;letter-spacing:.02em}
+body{padding-top:env(safe-area-inset-top,0px);padding-bottom:calc(74px + env(safe-area-inset-bottom,0px));min-height:100vh}
+a{color:inherit;text-decoration:none}
+header{display:flex;align-items:center;gap:10px;padding:10px 14px;border-bottom:2px solid var(--acc);background:var(--bg2)}
+header img{height:40px;width:auto}
+.btn{display:block;text-align:center;font-size:22px;padding:13px 10px;border-radius:12px;margin:10px 0;background:var(--acc);color:#0A3014;cursor:pointer}
+.btn.alt{background:none;color:var(--acc);border:2px solid var(--acc)}
+.btn.off{background:var(--bg2);color:var(--mute);border:2px dashed var(--line)}
+.sub{background:var(--bg2);border:2px solid var(--line);border-radius:12px;padding:12px 14px;margin:10px 0}
+.sub h3{margin:0;font-weight:400;font-size:26px}
+.sub .meta{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0}
+.sub .meta span{font-size:15px;padding:2px 10px;border-radius:999px;color:#0A3014;background:var(--c)}
+.sub .meta em{font-style:normal;font-size:15px;color:var(--mute);align-self:center}
+.acts{display:flex;gap:8px;margin-top:8px}
+.acts a{flex:1;text-align:center;font-size:19px;padding:9px 4px;border-radius:9px;background:var(--bg3);color:#fff;border:1px solid var(--line)}
+.acts a.wa{background:#128C4A}
+.tiles{grid-template-columns:1fr 1fr !important}
+header b{font-weight:400;font-size:22px;line-height:1}
+header b span{display:block;font-size:13px;color:var(--acc);letter-spacing:.14em;margin-top:2px}
+main{padding:14px 14px 20px;max-width:720px;margin:0 auto}
+.tabs{position:fixed;left:0;right:0;bottom:0;display:flex;background:var(--bg2);border-top:2px solid var(--acc);padding-bottom:env(safe-area-inset-bottom,0px);z-index:5}
+.tabs button{flex:1;min-width:0;background:none;border:0;color:#fff;font:inherit;font-size:clamp(11px,3.3vw,13px);letter-spacing:0;white-space:nowrap;position:relative;padding:14px 0 12px;cursor:pointer}
+.tabs button.on{color:#fff;font-weight:700;background:rgba(255,255,255,.12);box-shadow:inset 0 3px 0 var(--acc)}
+.dot{display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--d3);margin-left:4px;vertical-align:middle}
+h2{font-weight:400;font-size:30px;margin:6px 0 10px;color:var(--acc)}
+select{width:100%;font:inherit;font-size:24px;padding:12px 14px;background:var(--bg2);color:#fff;border:2px solid var(--acc);border-radius:10px;appearance:none}
+.d1{--c:var(--d1)}.d2{--c:var(--d2)}.d3{--c:var(--d3)}
+.chip{display:inline-block;font-size:16px;padding:3px 10px;border-radius:999px;color:#0A3014;margin:10px 0 4px;background:var(--c)}
+.round{margin:16px 0 4px;font-size:22px;color:var(--mute);letter-spacing:.08em}
+.game{display:flex;align-items:center;gap:12px;background:var(--bg2);border-left:6px solid var(--c);border-radius:8px;padding:10px 12px;margin:8px 0}
+.game.next{background:var(--bg3);box-shadow:0 0 0 2px var(--c)}
+.game.done{opacity:.55}
+.when{flex:0 0 62px;color:var(--c);font-size:19px;line-height:1.05}
+.when small{display:block;color:var(--mute);font-size:15px}
+.vs{flex:1;min-width:0;overflow-wrap:anywhere;font-size:24px;line-height:1.1}
+.vs small{display:block;color:var(--mute);font-size:15px;letter-spacing:.08em}
+.ct{flex:0 0 auto;background:var(--c);color:#0A3014;border-radius:8px;text-align:center;padding:4px 10px;font-size:15px;line-height:1}
+.ct b{display:block;font-size:30px;font-weight:400}
+.score{font-size:24px;color:var(--c);margin-left:6px}
+.tl{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.vs .tl>span:first-child{font-size:18px;line-height:1.1;overflow-wrap:break-word;word-break:normal;min-width:0;flex:1 1 auto}
+.tl .score{flex:none}
+.tl .score{margin:0;min-width:1.6em;text-align:right;opacity:.75}
+.tl .score.win{opacity:1;color:#fff}
+.pills{display:flex;gap:8px;overflow-x:auto;padding:4px 0 8px;scrollbar-width:none}
+.pills button{flex:0 0 auto;font:inherit;font-size:20px;padding:8px 16px;border-radius:999px;border:2px solid var(--line);background:none;color:var(--mute)}
+.pills button.on{background:var(--acc);color:#0A3014;border-color:var(--acc)}
+.divh{font-size:26px;margin:18px 0 2px;color:var(--c)}
+.slot{color:var(--mute);font-size:18px;margin:10px 0 2px;letter-spacing:.08em}
+table{width:100%;table-layout:fixed;border-collapse:collapse;margin:6px 0 4px}
+th{background:var(--c);color:#0A3014;font-weight:400;font-size:15px;padding:6px 4px;text-align:center}
+th:nth-child(2){text-align:left}
+td{padding:8px 4px;text-align:center;font-size:19px;border-bottom:1px solid var(--line);color:var(--mute)}
+td:nth-child(2){text-align:left;font-size:20px;color:#fff;padding-left:6px;overflow-wrap:anywhere;line-height:1.05}
+td.pos{color:var(--c);font-size:22px}
+td.pts{background:var(--c);color:#0A3014;font-size:22px}
+tr.out td{opacity:.5}tr.out td.pts{background:none;color:var(--mute)}
+td.pct{color:var(--c)}
+table.ext{min-width:max(100%,380px);width:max(100%,380px)}.xs{overflow-x:auto;-webkit-overflow-scrolling:touch}table.ext th{font-size:13px;padding:6px 1px}table.ext td{font-size:16px;padding:8px 1px}table.ext td:nth-child(2){font-size:17px;padding-left:4px}table.ext td.pos{font-size:18px}table.ext td.pts{font-size:19px}table.ext td.pct{font-size:15px}
+.note{color:var(--mute);font-size:16px;line-height:1.35;margin:8px 0}
+.card{background:var(--bg2);border:2px solid var(--line);border-radius:10px;padding:12px 14px;margin:10px 0;font-size:20px;line-height:1.3}
+.card b{color:var(--acc);font-weight:400}
+.banner{background:var(--acc);color:#0A3014;border-radius:8px;padding:10px 12px;margin:6px 0 10px;font-size:20px;line-height:1.2;cursor:pointer}
+/* home */
+.hero{text-align:center;padding:22px 10px 18px;margin:-14px -14px 14px;background:var(--bg);border-bottom:2px solid var(--acc)}
+.hero .lg{position:relative;width:min(300px,78vw);aspect-ratio:300/342;margin:0 auto}
+.hero .lg img{position:absolute;display:block;height:auto}
+.hero .lg .base{left:0;top:0;width:100%}
+.hero .lg .ball{left:33.67%;top:32.46%;width:34%;transform-origin:49.5% 50%;will-change:transform,filter}
+.hero p{margin:12px 0 0;font-size:16px;color:var(--acc);letter-spacing:.06em}
+.tiles{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin:12px 0}
+.tile{background:var(--bg2);border:2px solid var(--line);border-radius:12px;padding:14px 4px;text-align:center;font-size:22px;cursor:pointer}
+.tile i{display:block;font-style:normal;font-size:30px;margin-bottom:2px}
+.tile{border-color:var(--acc)}
+.sect{font-size:20px;color:var(--mute);letter-spacing:.14em;margin:18px 0 4px}
+.fb{display:flex;align-items:center;gap:12px;background:#1877F2;color:#fff;border-radius:12px;padding:12px 14px;margin:12px 0;font-size:22px;line-height:1.1}
+.fb span{display:block;font-size:15px;opacity:.9;letter-spacing:.06em}
+.fb svg{flex:0 0 34px}
+.pci{display:flex;align-items:center;justify-content:center;gap:10px;margin:22px 0 4px;color:var(--mute);font-size:15px;letter-spacing:.14em}
+.pci img{height:42px;width:auto}
+.divs{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0}
+.divs span{font-size:17px;padding:4px 12px;border-radius:999px;color:#0A3014;background:var(--c)}
+</style>
+<!-- Analytics: sign up free at goatcounter.com, pick a code (e.g. tjpickleball), then remove the comment markers below and put your code in the URL. -->
+<!-- <script data-goatcounter="https://YOURCODE.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script> -->
+</head>
+<body>
+<header><img id="hlogo" src="images/header-default.png" alt=""><b>TRADER JACKS<span>PICKLEBALL LEAGUE IV</span></b></header>
+<main id="app"></main>
+<nav class="tabs" id="tabs"></nav>
+<script>
+let SEASON={},TEAMS,GAMES,ROUNDS,FB,FORM_URL,SHEET_URL,SUBS,SCORES,NEWS,UPDATED,DIVNAME,PLAYERS;
+const LOGOBASE={"0": "images/logo-default.png", "1": "images/logo-default.png", "2": "images/logo-div2.png", "3": "images/logo-div3.png"};
+const LOGOBALL={"0": "images/ball-default.png", "1": "images/ball-default.png", "2": "images/ball-div2.png", "3": "images/ball-div3.png"};
+const LOGOS={"0": "images/header-default.png", "1": "images/header-default.png", "2": "images/header-div2.png", "3": "images/header-div3.png"};
+const THEME={0:['#39FF14','#1c6b30','#F4FF00'],1:['#F4FF00','#5a6000','#F4FF00'],2:['#FF7A00','#7a3a00','#FF7A00'],3:['#FF2B2B','#7a1414','#FF2B2B']};
+const PCI_LOGO='images/pci-logo.png';
+const TABS=[['home','HOME'],['me','MY TEAM'],['teams','TEAMS'],['fix','FIXTURES'],['lad','LADDERS'],['news','NEWS']];
+let tab='home', round=1, team='', subDiv=0, ext=false;
+function ls(k,v){try{if(v===undefined)return localStorage.getItem(k);localStorage.setItem(k,v)}catch(e){return null}}
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const divOf=t=>{for(const d in TEAMS)if(TEAMS[d].includes(t))return +d;return 0};
+function unseen(){const n=NEWS.length?NEWS[0].id:0;return n>(+ls('tjpl4seen')||0)}
+function nav(){document.getElementById('tabs').innerHTML=TABS.map(([k,l])=>`<button class="${tab===k?'on':''}" data-t="${k}">${l}${k==='news'&&unseen()&&tab!=='news'?'<i class="dot"></i>':''}</button>`).join('');
+ document.querySelectorAll('#tabs button').forEach(b=>b.onclick=()=>go(b.dataset.t))}
+function go(t){tab=t;render();window.scrollTo(0,0)}
+function gameCard(g,t,showDate){
+  const meA=g.a===t, opp=meA?g.b:g.a, sc=SCORES[g.i];
+  const done=g.ms+20*60000<Date.now(), d=divOf(t);
+  let vs=`<small>VS</small>${esc(opp)}`;
+  if(sc){const m=meA?sc[0]:sc[1],o=meA?sc[1]:sc[0],row=(n,x,y)=>`<div class="tl"><span>${esc(n)}</span><span class="score${x>y?' win':''}">${x}</span></div>`;
+    vs=row(t,m,o)+`<small>VS</small>`+row(opp,o,m)}
+  return `<div class="game d${d} ${g._next?'next':''} ${done?'done':''}"><div class="when">${g.t}${showDate?`<small>${ROUNDS[g.r].date}</small>`:''}</div><div class="vs">${vs}</div><div class="ct">COURT<b>${g.c}</b></div></div>`}
+const fbIcon='<svg viewBox="0 0 24 24" width="34" height="34" fill="#fff"><path d="M24 12a12 12 0 1 0-13.9 11.9v-8.4H7.1V12h3V9.4c0-3 1.8-4.7 4.5-4.7 1.3 0 2.7.2 2.7.2v3h-1.5c-1.5 0-2 .9-2 1.9V12h3.4l-.5 3.5h-2.9v8.4A12 12 0 0 0 24 12z"/></svg>';
+const fbCard=(t1,t2)=>`<a class="fb" href="${FB}" target="_blank" rel="noopener">${fbIcon}<div>${t1}<span>${t2}</span></div></a>`;
+function viewHome(){
+  let h=`<div class="hero"><div class="lg"><img class="base" src="${LOGOBASE[team?divOf(team):0]}" alt="Trader Jacks Pickleball League IV"><img class="ball" src="${LOGOBALL[team?divOf(team):0]}" alt=""></div><p>${esc(SEASON.dates||'')}</p></div>`;
+  if(unseen())h+=`<div class="banner" data-go="news">NEW ANNOUNCEMENT: ${esc(NEWS[0].title)} \u2013 tap to read</div>`;
+  h+=`<div class="sect">NEXT UP</div>`;
+  if(team){const d=divOf(team), mine=GAMES.filter(g=>g.a===team||g.b===team).sort((a,b)=>a.ms-b.ms), nx=mine.find(g=>g.ms+20*60000>=Date.now());
+    h+=`<span class="chip d${d}">${esc(team)}</span>`+(nx?`<div class="note">${ROUNDS[nx.r].date} \u2022 ${ROUNDS[nx.r].venue}</div>`+(nx._next=true,gameCard(nx,team,false)):`<div class="card">Round robin complete. <b>FINALS SAT 5 DEC</b></div>`)}
+  else h+=`<div class="card" data-go="me" style="cursor:pointer"><b>PICK YOUR TEAM</b><br>See your next game, court and opponent. Tap here.</div>`;
+  if(team&&Object.keys(SCORES).length){const rk=ladderRows(divOf(team));const i=rk.findIndex(r=>r.t===team);h+=`<div class="card d${divOf(team)}">LADDER: <b style="color:var(--c)">${i+1}${['ST','ND','RD'][i]||'TH'} OF ${rk.length}</b> \u2022 ${rk[i].pts} PTS \u2022 ${rk[i].p} PLAYED</div>`}
+  h+=`<div class="tiles"><div class="tile t1" data-go="fix"><i>\u{1F4C5}</i>FIXTURES</div><div class="tile t2" data-go="lad"><i>\u{1F3C6}</i>LADDERS</div><div class="tile t3" data-go="me"><i>\u{1F3D3}</i>MY TEAM</div><div class="tile" data-go="subs"><i>\u{1F91D}</i>SUBS LIST</div></div>`;
+  h+=`<div class="sect">THE SEASON</div><div class="card">7 rounds, then <b>FINALS DAY \u2022 SAT 5 DEC</b> at Avatea Hall.<div class="divs"><span class="d1">DIV 1</span><span class="d2">DIV 2</span><span class="d3">DIV 3 SOCIAL</span></div></div>`;
+  h+=`<div class="sect">LATEST NEWS</div>`+newsCards(NEWS.slice(0,1))+fbCard('PICKLEBALL COOK ISLANDS ON FACEBOOK','News, events and photos \u2013 follow the page');
+  h+=`<div class="pci"><img src="${PCI_LOGO}" alt="PCI"><span>PRESENTED BY PICKLEBALL COOK ISLANDS</span></div>`;
+  return h}
+function viewTeams(){
+  let h=`<h2>TEAMS</h2>`;
+  [1,2,3].forEach(d=>{h+=`<div class="sect" style="color:var(--d${d})">${DIVNAME[d]}</div>`+TEAMS[d].map(t=>{const pl=PLAYERS[t]||[];
+    return `<div class="card" style="border-left:4px solid var(--d${d})"><b>${esc(t)}</b><br>${pl.length?pl.map(esc).join(' \u2022 '):'<span class="note">Players to be confirmed</span>'}</div>`}).join('')});
+  return h}
+function viewMe(){
+  const opts=['<option value="">Choose your team\u2026</option>'].concat([1,2,3].map(d=>`<optgroup label="${DIVNAME[d]}">${TEAMS[d].map(t=>`<option ${t===team?'selected':''} value="${esc(t)}">${esc(t)}</option>`).join('')}</optgroup>`)).join('');
+  let h=`<h2>MY TEAM</h2><select id="sel">${opts}</select>`;
+  if(!team)return h+'<p class="note">Pick your team to see your games, courts and opponents for the whole season.</p>';
+  const d=divOf(team), mine=GAMES.filter(g=>g.a===team||g.b===team).sort((a,b)=>a.ms-b.ms);
+  const nx=mine.find(g=>g.ms+20*60000>=Date.now()); if(nx)nx._next=true;
+  h+=`<span class="chip d${d}">${DIVNAME[d]}</span>`;
+  if(nx)h+=`<p class="note">NEXT UP: ${ROUNDS[nx.r].date} \u2022 ${nx.t} \u2022 Court ${nx.c} \u2022 ${ROUNDS[nx.r].venue}</p>`;
+  for(let r=1;r<=7;r++){h+=`<div class="round">ROUND ${r} \u2022 ${ROUNDS[r].date} \u2022 ${ROUNDS[r].venue.toUpperCase()}</div>`+mine.filter(g=>g.r===r).map(g=>gameCard(g,team,false)).join('')}
+  h+=`<div class="btn alt" data-go="subs">NEED A SUB? SEE THE SUBS LIST</div><div class="card"><b>FINALS</b> \u2022 Sat 5 Dec at Avatea Hall. Top 4 in each division.</div>`;
+  return h}
+function finals(){return `<div class="card"><b>FINALS DAY \u2022 SAT 5 DEC \u2022 AVATEA HALL</b><br>Division 3 at 1:00 PM, Division 2 at 2:00 PM, Division 1 at 3:00 PM.</div>
+ <div class="card">Each division: <b>1st v 4th</b> and <b>2nd v 3rd</b> semi-finals, then the final.</div>
+ <div class="card"><b>WILDCARD PLAY-IN:</b> the Division 3 champion challenges Division 2\u2019s 4th seed, and the Division 2 champion challenges Division 1\u2019s 4th seed. Win it and you take that 4th seed spot.</div>`}
+function viewFix(){
+  let h=`<h2>FIXTURES</h2><div class="pills">`+[1,2,3,4,5,6,7].map(r=>`<button class="${round===r?'on':''}" data-r="${r}">R${r}</button>`).join('')+`<button class="${round===8?'on':''}" data-r="8">FINALS</button></div>`;
+  if(round===8)return h+finals();
+  h+=`<p class="note">${ROUNDS[round].date} \u2022 ${ROUNDS[round].venue}</p>`;
+  const order=round===1?[3,2,1]:[1,2,3];
+  order.forEach(d=>{
+    h+=`<div class="divh d${d}">${DIVNAME[d]}</div>`;
+    for(let s=1;s<=3;s++){const gs=GAMES.filter(g=>g.r===round&&g.d===d&&g.s===s); if(!gs.length)continue;
+      h+=`<div class="slot">${gs[0].t}</div>`+gs.map(g=>{const sc=SCORES[g.i];
+        const row=(n,x,y)=>`<div class="tl"><span>${esc(n)}</span>${sc?`<span class="score${x>y?' win':''}">${x}</span>`:''}</div>`;
+        return `<div class="game d${d}"><div class="vs" style="font-size:21px">${row(g.a,sc&&sc[0],sc&&sc[1])}<small>VS</small>${row(g.b,sc&&sc[1],sc&&sc[0])}</div><div class="ct">COURT<b>${g.c}</b></div></div>`}).join('')}});
+  return h}
+function ladderRows(d){
+  const rows=TEAMS[d].map(t=>({t,p:0,w:0,l:0,f:0,a:0})); const by=Object.fromEntries(rows.map(r=>[r.t,r]));
+  GAMES.forEach(g=>{const sc=SCORES[g.i]; if(!sc||g.d!==d)return; const A=by[g.a],B=by[g.b];
+    A.p++;B.p++;A.f+=sc[0];A.a+=sc[1];B.f+=sc[1];B.a+=sc[0]; if(sc[0]>sc[1])A.w++,B.l++; else if(sc[1]>sc[0])B.w++,A.l++});
+  rows.forEach(r=>{r.pts=r.w*2;r.pct=r.f/Math.max(r.a,0.5)*100;r.diff=r.f-r.a});
+  rows.sort((x,y)=>y.pts-x.pts||y.pct-x.pct||y.diff-x.diff||x.t.localeCompare(y.t));
+  return rows}
+function ladder(d){
+  const rows=ladderRows(d);
+  const hd=ext?'<th>#</th><th>TEAM</th><th>W</th><th>L</th><th>PTS</th><th>PF</th><th>PA</th><th>+/\u2212</th><th>%</th>':'<th>#</th><th>TEAM</th><th>P</th><th>W</th><th>L</th><th>PTS</th><th>%</th>';
+  const cg=ext?'<col style="width:22px"><col><col style="width:22px"><col style="width:22px"><col style="width:34px"><col style="width:36px"><col style="width:36px"><col style="width:40px"><col style="width:54px">':'<col style="width:30px"><col><col style="width:28px"><col style="width:28px"><col style="width:28px"><col style="width:48px"><col style="width:56px">';
+  const pc=r=>r.p?r.pct.toFixed(2):'\u2013';
+  return `<div class="d${d}"><div class="divh">${DIVNAME[d]}</div>${ext?'<div class="xs">':''}<table class="${ext?'ext':''}"><colgroup>${cg}</colgroup><tr>${hd}</tr>`+
+   rows.map((r,i)=>`<tr class="${i>3?'out':''}"><td class="pos">${i+1}</td><td>${esc(r.t)}</td>`+(ext?`<td>${r.w}</td><td>${r.l}</td><td class="pts">${r.pts}</td><td>${r.f}</td><td>${r.a}</td><td>${r.diff>0?'+':r.diff<0?'\u2212':''}${Math.abs(r.diff)}</td><td class="pct">${pc(r)}</td></tr>`:`<td>${r.p}</td><td>${r.w}</td><td>${r.l}</td><td class="pts">${r.pts}</td><td class="pct">${pc(r)}</td></tr>`)).join('')+`</table>${ext?'</div>':''}</div>`}
+function viewLad(){return `<h2>LADDERS</h2><div class="pills"><button class="${ext?'on':''}" data-ext="1">${ext?'\u2212 STANDARD TABLE':'+ EXTENDED TABLE'}</button></div>${[1,2,3].map(ladder).join('')}${ext?'<p class="note">PF = points for, PA = points against, +/\u2212 = points difference. Swipe the table sideways to see every column.</p>':''}<p class="note">2 points per win. Ties broken by for/against %, then points difference. Top 4 in each division reach the finals. Scores are entered by PCI after each round. ${esc(UPDATED)}</p>`}
+function newsCards(list){return list.map(n=>`<div class="card"><div class="note" style="margin:0 0 4px">${esc(n.date)}</div><b>${esc(n.title)}</b><br>${esc(n.text)}${n.url?`<br><a href="${esc(n.url)}" target="_blank" rel="noopener" style="color:var(--acc)">READ MORE \u203A</a>`:''}</div>`).join('')}
+function intl(p){let d=String(p).replace(/[^\d+]/g,'');if(d.startsWith('+'))return d.slice(1);if(d.startsWith('00'))return d.slice(2);if(d.length===5)return '682'+d;return d}
+function subCard(x){const n=intl(x.phone), tel='+'+n;
+  return `<div class="sub"><h3>${esc(x.name)}</h3><div class="meta">${x.divs.map(d=>`<span class="d${d}" style="--c:var(--d${d})">DIV ${d}</span>`).join('')}${x.rank?`<em>RANK #${x.rank}</em>`:''}${x.note?`<em>${esc(x.note)}</em>`:''}</div>${n?`<div class="acts"><a href="tel:${tel}">CALL</a><a href="sms:${tel}">TEXT</a><a class="wa" href="https://wa.me/${n}" target="_blank" rel="noopener">WHATSAPP</a></div>`:''}</div>`}
+function viewSubs(){
+  const d0=team?divOf(team):0; if(subDiv===0&&d0&&!window._subSet){subDiv=d0;window._subSet=1}
+  let h=`<h2>SUBS LIST</h2><div class="card">Need a sub? Contact a player directly. Subs are ranked by the executive committee and can only play in the divisions shown.</div>`;
+  h+=`<div class="pills">`+[[0,'ALL'],[1,'DIV 1'],[2,'DIV 2'],[3,'DIV 3']].map(([k,l])=>`<button class="${subDiv===k?'on':''}" data-sd="${k}">${l}</button>`).join('')+`</div>`;
+  const list=SUBS.filter(x=>!subDiv||x.divs.includes(subDiv)).sort((a,b)=>(a.rank||99)-(b.rank||99)||a.name.localeCompare(b.name));
+  h+=list.length?list.map(subCard).join(''):`<div class="card">No subs listed${subDiv?` for Division ${subDiv}`:''} yet. Check back soon.</div>`;
+  h+=FORM_URL?`<a class="btn" href="${esc(FORM_URL)}" target="_blank" rel="noopener">BECOME A SUB \u203A</a>`:`<div class="btn off">SUB SIGN-UP FORM COMING SOON</div>`;
+  if(SHEET_URL)h+=`<a class="btn alt" href="${esc(SHEET_URL)}" target="_blank" rel="noopener">VIEW FULL LIST (GOOGLE SHEET)</a>`;
+  return h}
+function viewNews(){if(NEWS.length)ls('tjpl4seen',String(NEWS[0].id));
+  return `<h2>LEAGUE NEWS</h2>`+newsCards(NEWS)+fbCard('MORE NEWS AND EVENTS','Pickleball Cook Islands on Facebook')+`<p class="note">Announcements from PCI appear here. Open the app to see the latest.</p>`}
+function theme(){const d=team?divOf(team):0,t=THEME[d],r=document.documentElement.style;r.setProperty('--acc',t[0]);r.setProperty('--glow',t[1]);r.setProperty('--hero',t[2]);const h=document.getElementById('hlogo');if(h)h.src=LOGOS[d]}
+function render(){theme();nav();const a=document.getElementById('app');
+  a.innerHTML=tab==='home'?viewHome():tab==='me'?viewMe():tab==='teams'?viewTeams():tab==='fix'?viewFix():tab==='lad'?viewLad():tab==='subs'?viewSubs():viewNews();
+  a.querySelectorAll('[data-ext]').forEach(b=>b.onclick=()=>{ext=!ext;render()});
+  a.querySelectorAll('[data-sd]').forEach(b=>b.onclick=()=>{subDiv=+b.dataset.sd;render()});
+  const sel=document.getElementById('sel'); if(sel)sel.onchange=()=>{team=sel.value;ls('tjpl4team',team);render()};
+  a.querySelectorAll('[data-go]').forEach(e=>e.onclick=()=>go(e.dataset.go));
+  a.querySelectorAll('.pills button[data-r]').forEach(b=>b.onclick=()=>{round=+b.dataset.r;render()})}
+function applyData(D){
+  DIVNAME={};TEAMS={};for(const k in D.divisions){DIVNAME[k]=D.divisions[k].name;TEAMS[k]=D.divisions[k].teams}
+  PLAYERS=D.players||{};ROUNDS=D.rounds;NEWS=D.news||[];SUBS=D.subs||[];SEASON=D.season||{};UPDATED=SEASON.updated||'';
+  FB=D.links.facebook||'';FORM_URL=D.links.subsForm||'';SHEET_URL=D.links.subsSheet||'';
+  SCORES={};GAMES=D.games.map((g,i)=>{if(g.score)SCORES[i]=g.score;return{r:g.round,d:g.div,s:g.slot,c:g.court,t:g.time,iso:g.start,a:g.teamA,b:g.teamB,i,ms:Date.parse(g.start)}});
+  team=ls('tjpl4team')||'';if(team&&!divOf(team))team='';
+}
+fetch('data/league.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()})
+ .then(D=>{applyData(D);render()})
+ .catch(()=>{document.getElementById('app').innerHTML='<div class="card">Could not load league data. Please refresh the page.</div>'});
+// Ball spin: slow, surges to a blur and eases back, on a 10 second cycle
+(function(){const mq=window.matchMedia&&matchMedia('(prefers-reduced-motion:reduce)');if(mq&&mq.matches)return;
+  const BASE=6, PEAK=2000, CYC=10000; let ang=0, last=performance.now(), t0=last;
+  function tick(now){const dt=Math.min(now-last,100)/1000; last=now;
+    const ph=((now-t0)%CYC)/CYC, k=Math.pow(Math.sin(Math.PI*ph),8), w=BASE+PEAK*k;
+    ang=(ang+w*dt)%360;
+    const b=document.querySelector('.hero .ball');
+    if(b){b.style.transform='rotate('+ang.toFixed(2)+'deg)';const bl=Math.min(2.5,w/450);b.style.filter=bl>0.15?'blur('+bl.toFixed(2)+'px)':'none'}
+    requestAnimationFrame(tick)}
+  requestAnimationFrame(tick)})();
+</script>
+</body>
+</html>
+

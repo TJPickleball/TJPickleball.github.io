@@ -1,0 +1,376 @@
+{
+  "_help": "Edit this file to update the site. Scores: set a game's \"score\" to [teamA, teamB] e.g. [11, 7], or null if not played. News: add new items to the TOP of \"news\" with the next id number. Then update \"updated\".",
+  "season": {
+    "title": "Trader Jacks Pickleball League IV",
+    "dates": "October 19th to December 5th, 2026",
+    "updated": "Updated after Round 4 (Sat 7 Nov)."
+  },
+  "links": {
+    "facebook": "https://www.facebook.com/pickleballcookislands",
+    "subsForm": "https://docs.google.com/forms/d/e/1FAIpQLScfGt1HLQqbB_k-mLtIc3v_syFAZ4vm-O_pwDcAGFuPbAbNag/viewform?usp=header",
+    "subsSheet": ""
+  },
+  "divisions": {
+    "1": {
+      "name": "DIVISION 1",
+      "teams": [
+        "Dis iz ur cap dinkin",
+        "Jammin",
+        "Franks & Beans",
+        "2inthepink1inthedink",
+        "Crush & Grab",
+        "The Dream Team 2.0"
+      ]
+    },
+    "2": {
+      "name": "DIVISION 2",
+      "teams": [
+        "Drop, Dink & Spin",
+        "Dink around&find out",
+        "ASC",
+        "Pickled Black",
+        "TINAS TURNERS",
+        "Miss Hits"
+      ]
+    },
+    "3": {
+      "name": "DIVISION 3 • SOCIAL",
+      "teams": [
+        "Dinkie Donuts",
+        "Big Balls No Walls",
+        "Fair Dinkums",
+        "Dinkie Rascals",
+        "Day Dinkers",
+        "Flatliners"
+      ]
+    }
+  },
+  "players": {
+    "ASC": [
+      "Rere Tuaputa",
+      "Carl Matheson",
+      "Elijah Tuaputa"
+    ],
+    "Big Balls No Walls": [
+      "Regan Gardiner",
+      "Craig Reddin",
+      "Jamie Crawford"
+    ],
+    "Crush & Grab": [
+      "Matty Beasley",
+      "Christine Dobinson",
+      "Kim Bertlesen"
+    ],
+    "Day Dinkers": [
+      "SeanT Smith",
+      "Miranda Smith",
+      "Erin Lange"
+    ],
+    "Dink around&find out": [
+      "Maevaleigh Herman",
+      "Gerald Tui",
+      "Edward Herman"
+    ],
+    "Dinkie Donuts": [
+      "Kiamana Cribb",
+      "Oliver Dobinson"
+    ],
+    "Dinkie Rascals": [
+      "Tane Cribb",
+      "Kayla Sadaraka-Eggleton",
+      "Ruby Crawford"
+    ],
+    "Dis iz ur cap dinkin": [
+      "Ash Steele",
+      "Peter Teiti",
+      "Richard Airnz"
+    ],
+    "Drop, Dink & Spin": [
+      "Kate Lyon",
+      "Sandra Yeats",
+      "Stella McIntyre"
+    ],
+    "Fair Dinkums": [
+      "Dave Dewar",
+      "Susannah Hodson",
+      "Tim Meyer"
+    ],
+    "Franks & Beans": [
+      "E-Nano Ellingham",
+      "Gareth Wilson Cribbage",
+      "Tayla Whats-A-Bronco Beddoes"
+    ],
+    "Jammin": [
+      "James Kora",
+      "Nancy Kora",
+      "Michelle Pora"
+    ],
+    "Miss Hits": [
+      "Kathy Wearing",
+      "Antonia Wearing",
+      "June Simiona"
+    ],
+    "Pickled Black": [
+      "Apii McLeod",
+      "Anna Roumanu",
+      "Ray Roumanu"
+    ],
+    "2inthepink1inthedink": [
+      "Mike Steele",
+      "Brendon Heath",
+      "Eugene Paul"
+    ],
+    "The Dream Team 2.0": [
+      "Lara Sadaraka",
+      "John Monga",
+      "Heinz Matysik"
+    ],
+    "TINAS TURNERS": [
+      "Tiare Kora",
+      "Manine Lynch",
+      "Tina Tumupu"
+    ],
+    "Flatliners": [
+      "Vaiana Dance"
+    ]
+  },
+  "rounds": {
+    "1": {
+      "date": "Mon 19 Oct",
+      "venue": "TSA"
+    },
+    "2": {
+      "date": "Sat 24 Oct",
+      "venue": "Avatea Hall"
+    },
+    "3": {
+      "date": "Sat 31 Oct",
+      "venue": "Avatea Hall"
+    },
+    "4": {
+      "date": "Sat 7 Nov",
+      "venue": "Avatea Hall"
+    },
+    "5": {
+      "date": "Sat 14 Nov",
+      "venue": "Avatea Hall"
+    },
+    "6": {
+      "date": "Sat 21 Nov",
+      "venue": "Avatea Hall"
+    },
+    "7": {
+      "date": "Sat 28 Nov",
+      "venue": "Avatea Hall"
+    }
+  },
+  "news": [
+    {"id": 3, "date": "Sat 7 Nov", "title": "GAME DAY – PAST THE HALFWAY MARK!", "text": "It's game day, and today takes us past the halfway point of the season. Every point counts and every rally matters. Remember, the top four in each division after Round 7 make the finals, so today is a big one for the ladder. Good luck to all teams today. Have fun, play in the spirit of pickle, and we'll see you on the courts."},
+    {"id": 2, "date": "Mon 19 Oct", "title": "ROUND 1 DONE – WELL PLAYED!", "text": "Congrats on a great first round of Trader Jack's Pickleball League 4. The spirit of pickle is alive and well! Round 1 results and ladders are now in the app. Next up is Saturday 24 Oct at Avatea Hall: Division 1 at 1pm, Division 2 at 2pm, Division 3 at 3pm. Don't be late! We were a bit lenient on Monday, but from Saturday a team will be penalised 1 point for every minute it is late, so every game starts on time. Well done everyone."},
+    {"id": 1, "date": "Welcome", "title": "WELCOME TO TJPL4", "text": "Find your team under Team, check the fixtures for every round, and follow the ladders. Scores are entered by PCI after each round, so check back after play. Round 1 is Mon 19 Oct at TSA, then Saturdays at Avatea Hall from 24 Oct."}
+  ],
+  "subs": [
+    {"name": "Daniel Carey", "phone": "70435", "divs": [1, 2, 3]},
+    {"name": "Yann Meyer", "phone": "88294", "divs": [1, 2, 3]},
+    {"name": "Shayna Kora", "phone": "54048", "divs": [1, 2, 3]},
+    {"name": "Christo Gilbert", "phone": "87881", "divs": [1, 2, 3]},
+    {"name": "Thomas Kora", "phone": "70984", "divs": [1]},
+    {"name": "Kora Kora", "phone": "53123", "divs": [1]},
+    {"name": "Julian Zeman", "phone": "52403", "divs": [1, 2]},
+    {"name": "Shona Lynch", "phone": "55271", "divs": [1, 2]},
+    {"name": "Charlee McLean", "phone": "80508", "divs": [1, 2, 3]},
+    {"name": "Jason Pierre", "phone": "87133", "divs": [1, 2]},
+    {"name": "Anna Edwards", "phone": "", "divs": [1], "note": "Contact via Facebook: Anna Edwards"}
+  ],
+  "games": [
+    {"round": 1, "div": 3, "slot": 1, "court": 1, "time": "5:00 PM", "start": "2026-10-19T17:00:00-10:00", "teamA": "Dinkie Donuts", "teamB": "Day Dinkers", "score": [6, 11]},
+    {"round": 1, "div": 3, "slot": 1, "court": 2, "time": "5:00 PM", "start": "2026-10-19T17:00:00-10:00", "teamA": "Big Balls No Walls", "teamB": "Dinkie Rascals", "score": [11, 9]},
+    {"round": 1, "div": 3, "slot": 1, "court": 3, "time": "5:00 PM", "start": "2026-10-19T17:00:00-10:00", "teamA": "Flatliners", "teamB": "Fair Dinkums", "score": [3, 11]},
+    {"round": 1, "div": 3, "slot": 2, "court": 1, "time": "5:20 PM", "start": "2026-10-19T17:20:00-10:00", "teamA": "Dinkie Rascals", "teamB": "Flatliners", "score": [5, 11]},
+    {"round": 1, "div": 3, "slot": 2, "court": 2, "time": "5:20 PM", "start": "2026-10-19T17:20:00-10:00", "teamA": "Dinkie Donuts", "teamB": "Fair Dinkums", "score": [11, 9]},
+    {"round": 1, "div": 3, "slot": 2, "court": 3, "time": "5:20 PM", "start": "2026-10-19T17:20:00-10:00", "teamA": "Big Balls No Walls", "teamB": "Day Dinkers", "score": [1, 11]},
+    {"round": 1, "div": 3, "slot": 3, "court": 1, "time": "5:40 PM", "start": "2026-10-19T17:40:00-10:00", "teamA": "Dinkie Rascals", "teamB": "Day Dinkers", "score": [8, 11]},
+    {"round": 1, "div": 3, "slot": 3, "court": 2, "time": "5:40 PM", "start": "2026-10-19T17:40:00-10:00", "teamA": "Flatliners", "teamB": "Dinkie Donuts", "score": [4, 11]},
+    {"round": 1, "div": 3, "slot": 3, "court": 3, "time": "5:40 PM", "start": "2026-10-19T17:40:00-10:00", "teamA": "Fair Dinkums", "teamB": "Big Balls No Walls", "score": [11, 6]},
+    {"round": 1, "div": 2, "slot": 1, "court": 4, "time": "5:00 PM", "start": "2026-10-19T17:00:00-10:00", "teamA": "ASC", "teamB": "Dink around&find out", "score": [11, 6]},
+    {"round": 1, "div": 2, "slot": 1, "court": 5, "time": "5:00 PM", "start": "2026-10-19T17:00:00-10:00", "teamA": "TINAS TURNERS", "teamB": "Pickled Black", "score": [11, 2]},
+    {"round": 1, "div": 2, "slot": 1, "court": 6, "time": "5:00 PM", "start": "2026-10-19T17:00:00-10:00", "teamA": "Miss Hits", "teamB": "Drop, Dink & Spin", "score": [2, 11]},
+    {"round": 1, "div": 2, "slot": 2, "court": 4, "time": "5:20 PM", "start": "2026-10-19T17:20:00-10:00", "teamA": "Drop, Dink & Spin", "teamB": "TINAS TURNERS", "score": [3, 11]},
+    {"round": 1, "div": 2, "slot": 2, "court": 5, "time": "5:20 PM", "start": "2026-10-19T17:20:00-10:00", "teamA": "ASC", "teamB": "Miss Hits", "score": [11, 3]},
+    {"round": 1, "div": 2, "slot": 2, "court": 6, "time": "5:20 PM", "start": "2026-10-19T17:20:00-10:00", "teamA": "Dink around&find out", "teamB": "Pickled Black", "score": [11, 8]},
+    {"round": 1, "div": 2, "slot": 3, "court": 4, "time": "5:40 PM", "start": "2026-10-19T17:40:00-10:00", "teamA": "ASC", "teamB": "Pickled Black", "score": [11, 3]},
+    {"round": 1, "div": 2, "slot": 3, "court": 5, "time": "5:40 PM", "start": "2026-10-19T17:40:00-10:00", "teamA": "Drop, Dink & Spin", "teamB": "Dink around&find out", "score": [10, 12]},
+    {"round": 1, "div": 2, "slot": 3, "court": 6, "time": "5:40 PM", "start": "2026-10-19T17:40:00-10:00", "teamA": "TINAS TURNERS", "teamB": "Miss Hits", "score": [11, 5]},
+    {"round": 1, "div": 1, "slot": 1, "court": 1, "time": "6:00 PM", "start": "2026-10-19T18:00:00-10:00", "teamA": "Dis iz ur cap dinkin", "teamB": "The Dream Team 2.0", "score": [11, 3]},
+    {"round": 1, "div": 1, "slot": 1, "court": 2, "time": "6:00 PM", "start": "2026-10-19T18:00:00-10:00", "teamA": "Crush & Grab", "teamB": "Franks & Beans", "score": [9, 11]},
+    {"round": 1, "div": 1, "slot": 1, "court": 3, "time": "6:00 PM", "start": "2026-10-19T18:00:00-10:00", "teamA": "Jammin", "teamB": "2inthepink1inthedink", "score": [1, 11]},
+    {"round": 1, "div": 1, "slot": 2, "court": 1, "time": "6:20 PM", "start": "2026-10-19T18:20:00-10:00", "teamA": "2inthepink1inthedink", "teamB": "Crush & Grab", "score": [10, 12]},
+    {"round": 1, "div": 1, "slot": 2, "court": 2, "time": "6:20 PM", "start": "2026-10-19T18:20:00-10:00", "teamA": "Jammin", "teamB": "The Dream Team 2.0", "score": [8, 11]},
+    {"round": 1, "div": 1, "slot": 2, "court": 3, "time": "6:20 PM", "start": "2026-10-19T18:20:00-10:00", "teamA": "Franks & Beans", "teamB": "Dis iz ur cap dinkin", "score": [11, 9]},
+    {"round": 1, "div": 1, "slot": 3, "court": 1, "time": "6:40 PM", "start": "2026-10-19T18:40:00-10:00", "teamA": "The Dream Team 2.0", "teamB": "Crush & Grab", "score": [2, 11]},
+    {"round": 1, "div": 1, "slot": 3, "court": 2, "time": "6:40 PM", "start": "2026-10-19T18:40:00-10:00", "teamA": "Dis iz ur cap dinkin", "teamB": "Jammin", "score": [12, 10]},
+    {"round": 1, "div": 1, "slot": 3, "court": 3, "time": "6:40 PM", "start": "2026-10-19T18:40:00-10:00", "teamA": "2inthepink1inthedink", "teamB": "Franks & Beans", "score": [11, 4]},
+    {"round": 2, "div": 1, "slot": 1, "court": 2, "time": "1:00 PM", "start": "2026-10-24T13:00:00-10:00", "teamA": "The Dream Team 2.0", "teamB": "Dis iz ur cap dinkin", "score": [12, 14]},
+    {"round": 2, "div": 1, "slot": 1, "court": 3, "time": "1:00 PM", "start": "2026-10-24T13:00:00-10:00", "teamA": "Crush & Grab", "teamB": "Franks & Beans", "score": [7, 11]},
+    {"round": 2, "div": 1, "slot": 1, "court": 4, "time": "1:00 PM", "start": "2026-10-24T13:00:00-10:00", "teamA": "2inthepink1inthedink", "teamB": "Jammin", "score": [11, 7]},
+    {"round": 2, "div": 1, "slot": 2, "court": 2, "time": "1:20 PM", "start": "2026-10-24T13:20:00-10:00", "teamA": "The Dream Team 2.0", "teamB": "Franks & Beans", "score": [4, 11]},
+    {"round": 2, "div": 1, "slot": 2, "court": 3, "time": "1:20 PM", "start": "2026-10-24T13:20:00-10:00", "teamA": "Dis iz ur cap dinkin", "teamB": "2inthepink1inthedink", "score": [2, 11]},
+    {"round": 2, "div": 1, "slot": 2, "court": 4, "time": "1:20 PM", "start": "2026-10-24T13:20:00-10:00", "teamA": "Crush & Grab", "teamB": "Jammin", "score": [11, 6]},
+    {"round": 2, "div": 1, "slot": 3, "court": 2, "time": "1:40 PM", "start": "2026-10-24T13:40:00-10:00", "teamA": "2inthepink1inthedink", "teamB": "The Dream Team 2.0", "score": [11, 4]},
+    {"round": 2, "div": 1, "slot": 3, "court": 3, "time": "1:40 PM", "start": "2026-10-24T13:40:00-10:00", "teamA": "Jammin", "teamB": "Franks & Beans", "score": [10, 12]},
+    {"round": 2, "div": 1, "slot": 3, "court": 4, "time": "1:40 PM", "start": "2026-10-24T13:40:00-10:00", "teamA": "Crush & Grab", "teamB": "Dis iz ur cap dinkin", "score": [11, 0]},
+    {"round": 2, "div": 2, "slot": 1, "court": 2, "time": "2:00 PM", "start": "2026-10-24T14:00:00-10:00", "teamA": "Miss Hits", "teamB": "TINAS TURNERS", "score": [3, 11]},
+    {"round": 2, "div": 2, "slot": 1, "court": 3, "time": "2:00 PM", "start": "2026-10-24T14:00:00-10:00", "teamA": "Pickled Black", "teamB": "ASC", "score": [0, 11]},
+    {"round": 2, "div": 2, "slot": 1, "court": 4, "time": "2:00 PM", "start": "2026-10-24T14:00:00-10:00", "teamA": "Drop, Dink & Spin", "teamB": "Dink around&find out", "score": [5, 11]},
+    {"round": 2, "div": 2, "slot": 2, "court": 2, "time": "2:20 PM", "start": "2026-10-24T14:20:00-10:00", "teamA": "Miss Hits", "teamB": "Dink around&find out", "score": [8, 11]},
+    {"round": 2, "div": 2, "slot": 2, "court": 3, "time": "2:20 PM", "start": "2026-10-24T14:20:00-10:00", "teamA": "ASC", "teamB": "TINAS TURNERS", "score": [17, 15]},
+    {"round": 2, "div": 2, "slot": 2, "court": 4, "time": "2:20 PM", "start": "2026-10-24T14:20:00-10:00", "teamA": "Drop, Dink & Spin", "teamB": "Pickled Black", "score": [11, 0]},
+    {"round": 2, "div": 2, "slot": 3, "court": 2, "time": "2:40 PM", "start": "2026-10-24T14:40:00-10:00", "teamA": "TINAS TURNERS", "teamB": "Dink around&find out", "score": [4, 11]},
+    {"round": 2, "div": 2, "slot": 3, "court": 3, "time": "2:40 PM", "start": "2026-10-24T14:40:00-10:00", "teamA": "Pickled Black", "teamB": "Miss Hits", "score": [2, 11]},
+    {"round": 2, "div": 2, "slot": 3, "court": 4, "time": "2:40 PM", "start": "2026-10-24T14:40:00-10:00", "teamA": "Drop, Dink & Spin", "teamB": "ASC", "score": [7, 11]},
+    {"round": 2, "div": 3, "slot": 1, "court": 2, "time": "3:00 PM", "start": "2026-10-24T15:00:00-10:00", "teamA": "Fair Dinkums", "teamB": "Dinkie Donuts", "score": [12, 10]},
+    {"round": 2, "div": 3, "slot": 1, "court": 3, "time": "3:00 PM", "start": "2026-10-24T15:00:00-10:00", "teamA": "Dinkie Rascals", "teamB": "Flatliners", "score": [9, 11]},
+    {"round": 2, "div": 3, "slot": 1, "court": 4, "time": "3:00 PM", "start": "2026-10-24T15:00:00-10:00", "teamA": "Big Balls No Walls", "teamB": "Day Dinkers", "score": [11, 3]},
+    {"round": 2, "div": 3, "slot": 2, "court": 2, "time": "3:20 PM", "start": "2026-10-24T15:20:00-10:00", "teamA": "Day Dinkers", "teamB": "Flatliners", "score": [10, 12]},
+    {"round": 2, "div": 3, "slot": 2, "court": 3, "time": "3:20 PM", "start": "2026-10-24T15:20:00-10:00", "teamA": "Fair Dinkums", "teamB": "Dinkie Rascals", "score": [11, 6]},
+    {"round": 2, "div": 3, "slot": 2, "court": 4, "time": "3:20 PM", "start": "2026-10-24T15:20:00-10:00", "teamA": "Dinkie Donuts", "teamB": "Big Balls No Walls", "score": [11, 2]},
+    {"round": 2, "div": 3, "slot": 3, "court": 2, "time": "3:40 PM", "start": "2026-10-24T15:40:00-10:00", "teamA": "Flatliners", "teamB": "Big Balls No Walls", "score": [11, 8]},
+    {"round": 2, "div": 3, "slot": 3, "court": 3, "time": "3:40 PM", "start": "2026-10-24T15:40:00-10:00", "teamA": "Dinkie Donuts", "teamB": "Dinkie Rascals", "score": [11, 5]},
+    {"round": 2, "div": 3, "slot": 3, "court": 4, "time": "3:40 PM", "start": "2026-10-24T15:40:00-10:00", "teamA": "Day Dinkers", "teamB": "Fair Dinkums", "score": [4, 11]},
+    {"round": 3, "div": 1, "slot": 1, "court": 2, "time": "1:00 PM", "start": "2026-10-31T13:00:00-10:00", "teamA": "Franks & Beans", "teamB": "The Dream Team 2.0", "score": [11, 3]},
+    {"round": 3, "div": 1, "slot": 1, "court": 3, "time": "1:00 PM", "start": "2026-10-31T13:00:00-10:00", "teamA": "Crush & Grab", "teamB": "Jammin", "score": [11, 4]},
+    {"round": 3, "div": 1, "slot": 1, "court": 4, "time": "1:00 PM", "start": "2026-10-31T13:00:00-10:00", "teamA": "2inthepink1inthedink", "teamB": "Dis iz ur cap dinkin", "score": [11, 1]},
+    {"round": 3, "div": 1, "slot": 2, "court": 2, "time": "1:20 PM", "start": "2026-10-31T13:20:00-10:00", "teamA": "Jammin", "teamB": "Dis iz ur cap dinkin", "score": [11, 0]},
+    {"round": 3, "div": 1, "slot": 2, "court": 3, "time": "1:20 PM", "start": "2026-10-31T13:20:00-10:00", "teamA": "2inthepink1inthedink", "teamB": "Franks & Beans", "score": [13, 11]},
+    {"round": 3, "div": 1, "slot": 2, "court": 4, "time": "1:20 PM", "start": "2026-10-31T13:20:00-10:00", "teamA": "The Dream Team 2.0", "teamB": "Crush & Grab", "score": [6, 11]},
+    {"round": 3, "div": 1, "slot": 3, "court": 2, "time": "1:40 PM", "start": "2026-10-31T13:40:00-10:00", "teamA": "Dis iz ur cap dinkin", "teamB": "Franks & Beans", "score": [5, 11]},
+    {"round": 3, "div": 1, "slot": 3, "court": 3, "time": "1:40 PM", "start": "2026-10-31T13:40:00-10:00", "teamA": "Jammin", "teamB": "The Dream Team 2.0", "score": [11, 4]},
+    {"round": 3, "div": 1, "slot": 3, "court": 4, "time": "1:40 PM", "start": "2026-10-31T13:40:00-10:00", "teamA": "Crush & Grab", "teamB": "2inthepink1inthedink", "score": [3, 11]},
+    {"round": 3, "div": 2, "slot": 1, "court": 2, "time": "2:00 PM", "start": "2026-10-31T14:00:00-10:00", "teamA": "Dink around&find out", "teamB": "Drop, Dink & Spin", "score": [13, 11]},
+    {"round": 3, "div": 2, "slot": 1, "court": 3, "time": "2:00 PM", "start": "2026-10-31T14:00:00-10:00", "teamA": "Miss Hits", "teamB": "TINAS TURNERS", "score": [11, 2]},
+    {"round": 3, "div": 2, "slot": 1, "court": 4, "time": "2:00 PM", "start": "2026-10-31T14:00:00-10:00", "teamA": "ASC", "teamB": "Pickled Black", "score": [11, 5]},
+    {"round": 3, "div": 2, "slot": 2, "court": 2, "time": "2:20 PM", "start": "2026-10-31T14:20:00-10:00", "teamA": "ASC", "teamB": "Miss Hits", "score": [11, 4]},
+    {"round": 3, "div": 2, "slot": 2, "court": 3, "time": "2:20 PM", "start": "2026-10-31T14:20:00-10:00", "teamA": "Drop, Dink & Spin", "teamB": "TINAS TURNERS", "score": [11, 3]},
+    {"round": 3, "div": 2, "slot": 2, "court": 4, "time": "2:20 PM", "start": "2026-10-31T14:20:00-10:00", "teamA": "Pickled Black", "teamB": "Dink around&find out", "score": [1, 11]},
+    {"round": 3, "div": 2, "slot": 3, "court": 2, "time": "2:40 PM", "start": "2026-10-31T14:40:00-10:00", "teamA": "Dink around&find out", "teamB": "ASC", "score": [11, 7]},
+    {"round": 3, "div": 2, "slot": 3, "court": 3, "time": "2:40 PM", "start": "2026-10-31T14:40:00-10:00", "teamA": "Drop, Dink & Spin", "teamB": "Miss Hits", "score": [9, 11]},
+    {"round": 3, "div": 2, "slot": 3, "court": 4, "time": "2:40 PM", "start": "2026-10-31T14:40:00-10:00", "teamA": "TINAS TURNERS", "teamB": "Pickled Black", "score": [11, 5]},
+    {"round": 3, "div": 3, "slot": 1, "court": 2, "time": "3:00 PM", "start": "2026-10-31T15:00:00-10:00", "teamA": "Dinkie Rascals", "teamB": "Dinkie Donuts", "score": [5, 11]},
+    {"round": 3, "div": 3, "slot": 1, "court": 3, "time": "3:00 PM", "start": "2026-10-31T15:00:00-10:00", "teamA": "Big Balls No Walls", "teamB": "Flatliners", "score": [12, 10]},
+    {"round": 3, "div": 3, "slot": 1, "court": 4, "time": "3:00 PM", "start": "2026-10-31T15:00:00-10:00", "teamA": "Day Dinkers", "teamB": "Fair Dinkums", "score": [3, 11]},
+    {"round": 3, "div": 3, "slot": 2, "court": 2, "time": "3:20 PM", "start": "2026-10-31T15:20:00-10:00", "teamA": "Big Balls No Walls", "teamB": "Dinkie Rascals", "score": [9, 11]},
+    {"round": 3, "div": 3, "slot": 2, "court": 3, "time": "3:20 PM", "start": "2026-10-31T15:20:00-10:00", "teamA": "Day Dinkers", "teamB": "Dinkie Donuts", "score": [1, 11]},
+    {"round": 3, "div": 3, "slot": 2, "court": 4, "time": "3:20 PM", "start": "2026-10-31T15:20:00-10:00", "teamA": "Flatliners", "teamB": "Fair Dinkums", "score": [4, 11]},
+    {"round": 3, "div": 3, "slot": 3, "court": 2, "time": "3:40 PM", "start": "2026-10-31T15:40:00-10:00", "teamA": "Dinkie Donuts", "teamB": "Flatliners", "score": [11, 7]},
+    {"round": 3, "div": 3, "slot": 3, "court": 3, "time": "3:40 PM", "start": "2026-10-31T15:40:00-10:00", "teamA": "Fair Dinkums", "teamB": "Big Balls No Walls", "score": [11, 6]},
+    {"round": 3, "div": 3, "slot": 3, "court": 4, "time": "3:40 PM", "start": "2026-10-31T15:40:00-10:00", "teamA": "Dinkie Rascals", "teamB": "Day Dinkers", "score": [8, 11]},
+    {"round": 4, "div": 1, "slot": 1, "court": 2, "time": "1:00 PM", "start": "2026-11-07T13:00:00-10:00", "teamA": "Jammin", "teamB": "2inthepink1inthedink", "score": [11, 6]},
+    {"round": 4, "div": 1, "slot": 1, "court": 3, "time": "1:00 PM", "start": "2026-11-07T13:00:00-10:00", "teamA": "The Dream Team 2.0", "teamB": "Dis iz ur cap dinkin", "score": [8, 11]},
+    {"round": 4, "div": 1, "slot": 1, "court": 4, "time": "1:00 PM", "start": "2026-11-07T13:00:00-10:00", "teamA": "Crush & Grab", "teamB": "Franks & Beans", "score": [11, 9]},
+    {"round": 4, "div": 1, "slot": 2, "court": 2, "time": "1:20 PM", "start": "2026-11-07T13:20:00-10:00", "teamA": "Franks & Beans", "teamB": "Dis iz ur cap dinkin", "score": [11, 2]},
+    {"round": 4, "div": 1, "slot": 2, "court": 3, "time": "1:20 PM", "start": "2026-11-07T13:20:00-10:00", "teamA": "2inthepink1inthedink", "teamB": "Crush & Grab", "score": [11, 5]},
+    {"round": 4, "div": 1, "slot": 2, "court": 4, "time": "1:20 PM", "start": "2026-11-07T13:20:00-10:00", "teamA": "The Dream Team 2.0", "teamB": "Jammin", "score": [7, 11]},
+    {"round": 4, "div": 1, "slot": 3, "court": 2, "time": "1:40 PM", "start": "2026-11-07T13:40:00-10:00", "teamA": "Dis iz ur cap dinkin", "teamB": "Crush & Grab", "score": [10, 12]},
+    {"round": 4, "div": 1, "slot": 3, "court": 3, "time": "1:40 PM", "start": "2026-11-07T13:40:00-10:00", "teamA": "The Dream Team 2.0", "teamB": "2inthepink1inthedink", "score": [4, 11]},
+    {"round": 4, "div": 1, "slot": 3, "court": 4, "time": "1:40 PM", "start": "2026-11-07T13:40:00-10:00", "teamA": "Franks & Beans", "teamB": "Jammin", "score": [6, 11]},
+    {"round": 4, "div": 2, "slot": 1, "court": 2, "time": "2:00 PM", "start": "2026-11-07T14:00:00-10:00", "teamA": "TINAS TURNERS", "teamB": "ASC", "score": [3, 11]},
+    {"round": 4, "div": 2, "slot": 1, "court": 3, "time": "2:00 PM", "start": "2026-11-07T14:00:00-10:00", "teamA": "Drop, Dink & Spin", "teamB": "Pickled Black", "score": [11, 1]},
+    {"round": 4, "div": 2, "slot": 1, "court": 4, "time": "2:00 PM", "start": "2026-11-07T14:00:00-10:00", "teamA": "Dink around&find out", "teamB": "Miss Hits", "score": [11, 4]},
+    {"round": 4, "div": 2, "slot": 2, "court": 2, "time": "2:20 PM", "start": "2026-11-07T14:20:00-10:00", "teamA": "Miss Hits", "teamB": "TINAS TURNERS", "score": [11, 2]},
+    {"round": 4, "div": 2, "slot": 2, "court": 3, "time": "2:20 PM", "start": "2026-11-07T14:20:00-10:00", "teamA": "Dink around&find out", "teamB": "Drop, Dink & Spin", "score": [11, 6]},
+    {"round": 4, "div": 2, "slot": 2, "court": 4, "time": "2:20 PM", "start": "2026-11-07T14:20:00-10:00", "teamA": "ASC", "teamB": "Pickled Black", "score": [11, 2]},
+    {"round": 4, "div": 2, "slot": 3, "court": 2, "time": "2:40 PM", "start": "2026-11-07T14:40:00-10:00", "teamA": "Drop, Dink & Spin", "teamB": "ASC", "score": [6, 11]},
+    {"round": 4, "div": 2, "slot": 3, "court": 3, "time": "2:40 PM", "start": "2026-11-07T14:40:00-10:00", "teamA": "Dink around&find out", "teamB": "TINAS TURNERS", "score": [11, 3]},
+    {"round": 4, "div": 2, "slot": 3, "court": 4, "time": "2:40 PM", "start": "2026-11-07T14:40:00-10:00", "teamA": "Pickled Black", "teamB": "Miss Hits", "score": [4, 11]},
+    {"round": 4, "div": 3, "slot": 1, "court": 2, "time": "3:00 PM", "start": "2026-11-07T15:00:00-10:00", "teamA": "Day Dinkers", "teamB": "Big Balls No Walls", "score": [7, 11]},
+    {"round": 4, "div": 3, "slot": 1, "court": 3, "time": "3:00 PM", "start": "2026-11-07T15:00:00-10:00", "teamA": "Fair Dinkums", "teamB": "Dinkie Donuts", "score": [7, 11]},
+    {"round": 4, "div": 3, "slot": 1, "court": 4, "time": "3:00 PM", "start": "2026-11-07T15:00:00-10:00", "teamA": "Dinkie Rascals", "teamB": "Flatliners", "score": [11, 7]},
+    {"round": 4, "div": 3, "slot": 2, "court": 2, "time": "3:20 PM", "start": "2026-11-07T15:20:00-10:00", "teamA": "Dinkie Donuts", "teamB": "Day Dinkers", "score": [11, 5]},
+    {"round": 4, "div": 3, "slot": 2, "court": 3, "time": "3:20 PM", "start": "2026-11-07T15:20:00-10:00", "teamA": "Fair Dinkums", "teamB": "Flatliners", "score": [10, 12]},
+    {"round": 4, "div": 3, "slot": 2, "court": 4, "time": "3:20 PM", "start": "2026-11-07T15:20:00-10:00", "teamA": "Dinkie Rascals", "teamB": "Big Balls No Walls", "score": [11, 8]},
+    {"round": 4, "div": 3, "slot": 3, "court": 2, "time": "3:40 PM", "start": "2026-11-07T15:40:00-10:00", "teamA": "Dinkie Rascals", "teamB": "Fair Dinkums", "score": [3, 11]},
+    {"round": 4, "div": 3, "slot": 3, "court": 3, "time": "3:40 PM", "start": "2026-11-07T15:40:00-10:00", "teamA": "Flatliners", "teamB": "Day Dinkers", "score": [11, 8]},
+    {"round": 4, "div": 3, "slot": 3, "court": 4, "time": "3:40 PM", "start": "2026-11-07T15:40:00-10:00", "teamA": "Dinkie Donuts", "teamB": "Big Balls No Walls", "score": [11, 2]},
+    {"round": 5, "div": 1, "slot": 1, "court": 2, "time": "1:00 PM", "start": "2026-11-14T13:00:00-10:00", "teamA": "Franks & Beans", "teamB": "Jammin", "score": null},
+    {"round": 5, "div": 1, "slot": 1, "court": 3, "time": "1:00 PM", "start": "2026-11-14T13:00:00-10:00", "teamA": "The Dream Team 2.0", "teamB": "2inthepink1inthedink", "score": null},
+    {"round": 5, "div": 1, "slot": 1, "court": 4, "time": "1:00 PM", "start": "2026-11-14T13:00:00-10:00", "teamA": "Crush & Grab", "teamB": "Dis iz ur cap dinkin", "score": null},
+    {"round": 5, "div": 1, "slot": 2, "court": 2, "time": "1:20 PM", "start": "2026-11-14T13:20:00-10:00", "teamA": "Dis iz ur cap dinkin", "teamB": "Jammin", "score": null},
+    {"round": 5, "div": 1, "slot": 2, "court": 3, "time": "1:20 PM", "start": "2026-11-14T13:20:00-10:00", "teamA": "Crush & Grab", "teamB": "The Dream Team 2.0", "score": null},
+    {"round": 5, "div": 1, "slot": 2, "court": 4, "time": "1:20 PM", "start": "2026-11-14T13:20:00-10:00", "teamA": "Franks & Beans", "teamB": "2inthepink1inthedink", "score": null},
+    {"round": 5, "div": 1, "slot": 3, "court": 2, "time": "1:40 PM", "start": "2026-11-14T13:40:00-10:00", "teamA": "Dis iz ur cap dinkin", "teamB": "2inthepink1inthedink", "score": null},
+    {"round": 5, "div": 1, "slot": 3, "court": 3, "time": "1:40 PM", "start": "2026-11-14T13:40:00-10:00", "teamA": "Crush & Grab", "teamB": "Jammin", "score": null},
+    {"round": 5, "div": 1, "slot": 3, "court": 4, "time": "1:40 PM", "start": "2026-11-14T13:40:00-10:00", "teamA": "Franks & Beans", "teamB": "The Dream Team 2.0", "score": null},
+    {"round": 5, "div": 2, "slot": 1, "court": 2, "time": "2:00 PM", "start": "2026-11-14T14:00:00-10:00", "teamA": "TINAS TURNERS", "teamB": "Pickled Black", "score": null},
+    {"round": 5, "div": 2, "slot": 1, "court": 3, "time": "2:00 PM", "start": "2026-11-14T14:00:00-10:00", "teamA": "Dink around&find out", "teamB": "ASC", "score": null},
+    {"round": 5, "div": 2, "slot": 1, "court": 4, "time": "2:00 PM", "start": "2026-11-14T14:00:00-10:00", "teamA": "Drop, Dink & Spin", "teamB": "Miss Hits", "score": null},
+    {"round": 5, "div": 2, "slot": 2, "court": 2, "time": "2:20 PM", "start": "2026-11-14T14:20:00-10:00", "teamA": "Pickled Black", "teamB": "Dink around&find out", "score": null},
+    {"round": 5, "div": 2, "slot": 2, "court": 3, "time": "2:20 PM", "start": "2026-11-14T14:20:00-10:00", "teamA": "Drop, Dink & Spin", "teamB": "TINAS TURNERS", "score": null},
+    {"round": 5, "div": 2, "slot": 2, "court": 4, "time": "2:20 PM", "start": "2026-11-14T14:20:00-10:00", "teamA": "ASC", "teamB": "Miss Hits", "score": null},
+    {"round": 5, "div": 2, "slot": 3, "court": 2, "time": "2:40 PM", "start": "2026-11-14T14:40:00-10:00", "teamA": "TINAS TURNERS", "teamB": "Dink around&find out", "score": null},
+    {"round": 5, "div": 2, "slot": 3, "court": 3, "time": "2:40 PM", "start": "2026-11-14T14:40:00-10:00", "teamA": "ASC", "teamB": "Drop, Dink & Spin", "score": null},
+    {"round": 5, "div": 2, "slot": 3, "court": 4, "time": "2:40 PM", "start": "2026-11-14T14:40:00-10:00", "teamA": "Pickled Black", "teamB": "Miss Hits", "score": null},
+    {"round": 5, "div": 3, "slot": 1, "court": 2, "time": "3:00 PM", "start": "2026-11-14T15:00:00-10:00", "teamA": "Dinkie Rascals", "teamB": "Day Dinkers", "score": null},
+    {"round": 5, "div": 3, "slot": 1, "court": 3, "time": "3:00 PM", "start": "2026-11-14T15:00:00-10:00", "teamA": "Fair Dinkums", "teamB": "Big Balls No Walls", "score": null},
+    {"round": 5, "div": 3, "slot": 1, "court": 4, "time": "3:00 PM", "start": "2026-11-14T15:00:00-10:00", "teamA": "Dinkie Donuts", "teamB": "Flatliners", "score": null},
+    {"round": 5, "div": 3, "slot": 2, "court": 2, "time": "3:20 PM", "start": "2026-11-14T15:20:00-10:00", "teamA": "Fair Dinkums", "teamB": "Day Dinkers", "score": null},
+    {"round": 5, "div": 3, "slot": 2, "court": 3, "time": "3:20 PM", "start": "2026-11-14T15:20:00-10:00", "teamA": "Flatliners", "teamB": "Big Balls No Walls", "score": null},
+    {"round": 5, "div": 3, "slot": 2, "court": 4, "time": "3:20 PM", "start": "2026-11-14T15:20:00-10:00", "teamA": "Dinkie Rascals", "teamB": "Dinkie Donuts", "score": null},
+    {"round": 5, "div": 3, "slot": 3, "court": 2, "time": "3:40 PM", "start": "2026-11-14T15:40:00-10:00", "teamA": "Day Dinkers", "teamB": "Flatliners", "score": null},
+    {"round": 5, "div": 3, "slot": 3, "court": 3, "time": "3:40 PM", "start": "2026-11-14T15:40:00-10:00", "teamA": "Big Balls No Walls", "teamB": "Dinkie Donuts", "score": null},
+    {"round": 5, "div": 3, "slot": 3, "court": 4, "time": "3:40 PM", "start": "2026-11-14T15:40:00-10:00", "teamA": "Dinkie Rascals", "teamB": "Fair Dinkums", "score": null},
+    {"round": 6, "div": 1, "slot": 1, "court": 2, "time": "1:00 PM", "start": "2026-11-21T13:00:00-10:00", "teamA": "2inthepink1inthedink", "teamB": "Jammin", "score": null},
+    {"round": 6, "div": 1, "slot": 1, "court": 3, "time": "1:00 PM", "start": "2026-11-21T13:00:00-10:00", "teamA": "The Dream Team 2.0", "teamB": "Dis iz ur cap dinkin", "score": null},
+    {"round": 6, "div": 1, "slot": 1, "court": 4, "time": "1:00 PM", "start": "2026-11-21T13:00:00-10:00", "teamA": "Franks & Beans", "teamB": "Crush & Grab", "score": null},
+    {"round": 6, "div": 1, "slot": 2, "court": 2, "time": "1:20 PM", "start": "2026-11-21T13:20:00-10:00", "teamA": "Jammin", "teamB": "The Dream Team 2.0", "score": null},
+    {"round": 6, "div": 1, "slot": 2, "court": 3, "time": "1:20 PM", "start": "2026-11-21T13:20:00-10:00", "teamA": "2inthepink1inthedink", "teamB": "Crush & Grab", "score": null},
+    {"round": 6, "div": 1, "slot": 2, "court": 4, "time": "1:20 PM", "start": "2026-11-21T13:20:00-10:00", "teamA": "Dis iz ur cap dinkin", "teamB": "Franks & Beans", "score": null},
+    {"round": 6, "div": 1, "slot": 3, "court": 2, "time": "1:40 PM", "start": "2026-11-21T13:40:00-10:00", "teamA": "Jammin", "teamB": "Crush & Grab", "score": null},
+    {"round": 6, "div": 1, "slot": 3, "court": 3, "time": "1:40 PM", "start": "2026-11-21T13:40:00-10:00", "teamA": "Franks & Beans", "teamB": "The Dream Team 2.0", "score": null},
+    {"round": 6, "div": 1, "slot": 3, "court": 4, "time": "1:40 PM", "start": "2026-11-21T13:40:00-10:00", "teamA": "Dis iz ur cap dinkin", "teamB": "2inthepink1inthedink", "score": null},
+    {"round": 6, "div": 2, "slot": 1, "court": 2, "time": "2:00 PM", "start": "2026-11-21T14:00:00-10:00", "teamA": "TINAS TURNERS", "teamB": "ASC", "score": null},
+    {"round": 6, "div": 2, "slot": 1, "court": 3, "time": "2:00 PM", "start": "2026-11-21T14:00:00-10:00", "teamA": "Drop, Dink & Spin", "teamB": "Pickled Black", "score": null},
+    {"round": 6, "div": 2, "slot": 1, "court": 4, "time": "2:00 PM", "start": "2026-11-21T14:00:00-10:00", "teamA": "Miss Hits", "teamB": "Dink around&find out", "score": null},
+    {"round": 6, "div": 2, "slot": 2, "court": 2, "time": "2:20 PM", "start": "2026-11-21T14:20:00-10:00", "teamA": "Miss Hits", "teamB": "TINAS TURNERS", "score": null},
+    {"round": 6, "div": 2, "slot": 2, "court": 3, "time": "2:20 PM", "start": "2026-11-21T14:20:00-10:00", "teamA": "Dink around&find out", "teamB": "Drop, Dink & Spin", "score": null},
+    {"round": 6, "div": 2, "slot": 2, "court": 4, "time": "2:20 PM", "start": "2026-11-21T14:20:00-10:00", "teamA": "Pickled Black", "teamB": "ASC", "score": null},
+    {"round": 6, "div": 2, "slot": 3, "court": 2, "time": "2:40 PM", "start": "2026-11-21T14:40:00-10:00", "teamA": "Pickled Black", "teamB": "TINAS TURNERS", "score": null},
+    {"round": 6, "div": 2, "slot": 3, "court": 3, "time": "2:40 PM", "start": "2026-11-21T14:40:00-10:00", "teamA": "Miss Hits", "teamB": "Drop, Dink & Spin", "score": null},
+    {"round": 6, "div": 2, "slot": 3, "court": 4, "time": "2:40 PM", "start": "2026-11-21T14:40:00-10:00", "teamA": "Dink around&find out", "teamB": "ASC", "score": null},
+    {"round": 6, "div": 3, "slot": 1, "court": 2, "time": "3:00 PM", "start": "2026-11-21T15:00:00-10:00", "teamA": "Dinkie Donuts", "teamB": "Fair Dinkums", "score": null},
+    {"round": 6, "div": 3, "slot": 1, "court": 3, "time": "3:00 PM", "start": "2026-11-21T15:00:00-10:00", "teamA": "Flatliners", "teamB": "Dinkie Rascals", "score": null},
+    {"round": 6, "div": 3, "slot": 1, "court": 4, "time": "3:00 PM", "start": "2026-11-21T15:00:00-10:00", "teamA": "Big Balls No Walls", "teamB": "Day Dinkers", "score": null},
+    {"round": 6, "div": 3, "slot": 2, "court": 2, "time": "3:20 PM", "start": "2026-11-21T15:20:00-10:00", "teamA": "Dinkie Rascals", "teamB": "Big Balls No Walls", "score": null},
+    {"round": 6, "div": 3, "slot": 2, "court": 3, "time": "3:20 PM", "start": "2026-11-21T15:20:00-10:00", "teamA": "Flatliners", "teamB": "Fair Dinkums", "score": null},
+    {"round": 6, "div": 3, "slot": 2, "court": 4, "time": "3:20 PM", "start": "2026-11-21T15:20:00-10:00", "teamA": "Day Dinkers", "teamB": "Dinkie Donuts", "score": null},
+    {"round": 6, "div": 3, "slot": 3, "court": 2, "time": "3:40 PM", "start": "2026-11-21T15:40:00-10:00", "teamA": "Day Dinkers", "teamB": "Fair Dinkums", "score": null},
+    {"round": 6, "div": 3, "slot": 3, "court": 3, "time": "3:40 PM", "start": "2026-11-21T15:40:00-10:00", "teamA": "Flatliners", "teamB": "Big Balls No Walls", "score": null},
+    {"round": 6, "div": 3, "slot": 3, "court": 4, "time": "3:40 PM", "start": "2026-11-21T15:40:00-10:00", "teamA": "Dinkie Rascals", "teamB": "Dinkie Donuts", "score": null},
+    {"round": 7, "div": 1, "slot": 1, "court": 2, "time": "1:00 PM", "start": "2026-11-28T13:00:00-10:00", "teamA": "2inthepink1inthedink", "teamB": "Jammin", "score": null},
+    {"round": 7, "div": 1, "slot": 1, "court": 3, "time": "1:00 PM", "start": "2026-11-28T13:00:00-10:00", "teamA": "Crush & Grab", "teamB": "Franks & Beans", "score": null},
+    {"round": 7, "div": 1, "slot": 1, "court": 4, "time": "1:00 PM", "start": "2026-11-28T13:00:00-10:00", "teamA": "The Dream Team 2.0", "teamB": "Dis iz ur cap dinkin", "score": null},
+    {"round": 7, "div": 1, "slot": 2, "court": 2, "time": "1:20 PM", "start": "2026-11-28T13:20:00-10:00", "teamA": "Franks & Beans", "teamB": "Jammin", "score": null},
+    {"round": 7, "div": 1, "slot": 2, "court": 3, "time": "1:20 PM", "start": "2026-11-28T13:20:00-10:00", "teamA": "The Dream Team 2.0", "teamB": "2inthepink1inthedink", "score": null},
+    {"round": 7, "div": 1, "slot": 2, "court": 4, "time": "1:20 PM", "start": "2026-11-28T13:20:00-10:00", "teamA": "Dis iz ur cap dinkin", "teamB": "Crush & Grab", "score": null},
+    {"round": 7, "div": 1, "slot": 3, "court": 2, "time": "1:40 PM", "start": "2026-11-28T13:40:00-10:00", "teamA": "2inthepink1inthedink", "teamB": "Franks & Beans", "score": null},
+    {"round": 7, "div": 1, "slot": 3, "court": 3, "time": "1:40 PM", "start": "2026-11-28T13:40:00-10:00", "teamA": "The Dream Team 2.0", "teamB": "Crush & Grab", "score": null},
+    {"round": 7, "div": 1, "slot": 3, "court": 4, "time": "1:40 PM", "start": "2026-11-28T13:40:00-10:00", "teamA": "Jammin", "teamB": "Dis iz ur cap dinkin", "score": null},
+    {"round": 7, "div": 2, "slot": 1, "court": 2, "time": "2:00 PM", "start": "2026-11-28T14:00:00-10:00", "teamA": "Miss Hits", "teamB": "Pickled Black", "score": null},
+    {"round": 7, "div": 2, "slot": 1, "court": 3, "time": "2:00 PM", "start": "2026-11-28T14:00:00-10:00", "teamA": "Dink around&find out", "teamB": "TINAS TURNERS", "score": null},
+    {"round": 7, "div": 2, "slot": 1, "court": 4, "time": "2:00 PM", "start": "2026-11-28T14:00:00-10:00", "teamA": "ASC", "teamB": "Drop, Dink & Spin", "score": null},
+    {"round": 7, "div": 2, "slot": 2, "court": 2, "time": "2:20 PM", "start": "2026-11-28T14:20:00-10:00", "teamA": "Miss Hits", "teamB": "ASC", "score": null},
+    {"round": 7, "div": 2, "slot": 2, "court": 3, "time": "2:20 PM", "start": "2026-11-28T14:20:00-10:00", "teamA": "Pickled Black", "teamB": "Dink around&find out", "score": null},
+    {"round": 7, "div": 2, "slot": 2, "court": 4, "time": "2:20 PM", "start": "2026-11-28T14:20:00-10:00", "teamA": "TINAS TURNERS", "teamB": "Drop, Dink & Spin", "score": null},
+    {"round": 7, "div": 2, "slot": 3, "court": 2, "time": "2:40 PM", "start": "2026-11-28T14:40:00-10:00", "teamA": "Dink around&find out", "teamB": "Miss Hits", "score": null},
+    {"round": 7, "div": 2, "slot": 3, "court": 3, "time": "2:40 PM", "start": "2026-11-28T14:40:00-10:00", "teamA": "ASC", "teamB": "TINAS TURNERS", "score": null},
+    {"round": 7, "div": 2, "slot": 3, "court": 4, "time": "2:40 PM", "start": "2026-11-28T14:40:00-10:00", "teamA": "Pickled Black", "teamB": "Drop, Dink & Spin", "score": null},
+    {"round": 7, "div": 3, "slot": 1, "court": 2, "time": "3:00 PM", "start": "2026-11-28T15:00:00-10:00", "teamA": "Dinkie Donuts", "teamB": "Big Balls No Walls", "score": null},
+    {"round": 7, "div": 3, "slot": 1, "court": 3, "time": "3:00 PM", "start": "2026-11-28T15:00:00-10:00", "teamA": "Flatliners", "teamB": "Day Dinkers", "score": null},
+    {"round": 7, "div": 3, "slot": 1, "court": 4, "time": "3:00 PM", "start": "2026-11-28T15:00:00-10:00", "teamA": "Fair Dinkums", "teamB": "Dinkie Rascals", "score": null},
+    {"round": 7, "div": 3, "slot": 2, "court": 2, "time": "3:20 PM", "start": "2026-11-28T15:20:00-10:00", "teamA": "Dinkie Donuts", "teamB": "Flatliners", "score": null},
+    {"round": 7, "div": 3, "slot": 2, "court": 3, "time": "3:20 PM", "start": "2026-11-28T15:20:00-10:00", "teamA": "Day Dinkers", "teamB": "Dinkie Rascals", "score": null},
+    {"round": 7, "div": 3, "slot": 2, "court": 4, "time": "3:20 PM", "start": "2026-11-28T15:20:00-10:00", "teamA": "Big Balls No Walls", "teamB": "Fair Dinkums", "score": null},
+    {"round": 7, "div": 3, "slot": 3, "court": 2, "time": "3:40 PM", "start": "2026-11-28T15:40:00-10:00", "teamA": "Day Dinkers", "teamB": "Fair Dinkums", "score": null},
+    {"round": 7, "div": 3, "slot": 3, "court": 3, "time": "3:40 PM", "start": "2026-11-28T15:40:00-10:00", "teamA": "Big Balls No Walls", "teamB": "Flatliners", "score": null},
+    {"round": 7, "div": 3, "slot": 3, "court": 4, "time": "3:40 PM", "start": "2026-11-28T15:40:00-10:00", "teamA": "Dinkie Donuts", "teamB": "Dinkie Rascals", "score": null}
+  ]
+}
